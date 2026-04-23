@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits - Akario Market</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Akario <span class="market-1">Market</span></h1>
+        <div class="search-bar">
+        <input type="text" placeholder="Rechercher un produit...">
+        <button></button>
+        </div>
+            
+            <ul>
+                <li><a href="index.html">Accueil</a></li>  
+                <li><a href="produit.html">Produits</a></li>      
+               <div class="menu-right">
+
+    <div class="dropdown">
+      <a href="#" class="dropbtn">Catégories <span class="arrow">▼</span></a>
+      <ul class="dropdown-menu">
+        <li><a href="homme.html">Homme</a></li>
+        <li><a href="femme.html">Femme</a></li>
+        <li><a href="enfant.html">Enfant</a></li>
+        <li><a href="accessoir.html">Accessoires</a></li>
+      </ul>
+    </div>
+
+  </div>
+                <li><a href="apropos.html">À propos</a></li>    
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="panier.html">Panier 🛒</a></li>    
+            </ul>
+        </nav>
+    </header>
+<!-- 🟣 SECTION INTRO PRODUITS -->
+<section class="produits-intro">
+
+  <h2>Nos Produits</h2>
+
+  <p>
+    Découvrez notre sélection exclusive de vêtements modernes et stylés pour homme et femme.
+    Chaque produit est choisi avec soin pour vous offrir qualité, confort et élégance.
+  </p>
+
+  <p>
+    Faites votre choix parmi nos meilleures collections et profitez d’une expérience d’achat simple, rapide et sécurisée.
+  </p>
+
+</section>
+
+<section class="classe_image">
+
+  <div class="card">
+    <img src="chemise_blanche.avif" alt="chemise blanche">
+    <h3>Chemise blanche</h3>
+    <p>Qualité : Premium</p>
+    <p>Prix : 25€</p>
+    <a href="#" class="btn" onclick="addToCart('Chemise blanche', 25)">Ajouter au panier</a>
+  </div>
+
+  <div class="card">
+    <img src="complet.jpeg" alt="complet homme">
+    <h3>Complet Homme</h3>
+    <p>Qualité : Luxe</p>
+    <p>Prix : 60€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="chemises_homme.avif" alt="chemise homme">
+    <h3>Chemise Homme</h3>
+    <p>Qualité : Classique</p>
+    <p>Prix : 30€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="short.avif" alt="short">
+    <h3>Short Homme</h3>
+    <p>Qualité : Confort</p>
+    <p>Prix : 20€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn" onclick="addToCart('lakers_complet', 25)">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="pull_blanc.jpg" alt="pull blanc">
+    <h3>Pull Blanc</h3>
+    <p>Qualité : Hiver</p>
+    <p>Prix : 35€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="card">
+    <img src="lakers_complet.jpg" alt="lakers">
+    <h3>Tenue Lakers</h3>
+    <p>Qualité : Sport</p>
+    <p>Prix : 45€</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+</section>
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- 🟦 NOS SERVICES -->
+    <div class="footer-box">
+      <h3>Nos services</h3>
+      <ul>
+        <li>Livraison rapide</li>
+        <li>Paiement sécurisé</li>
+        <li>Support 24h/24</li>
+        <li>Produits de qualité</li>
+      </ul>
+    </div>
+
+    <!-- 🟩 CONTACT -->
+    <div class="footer-box">
+      <h3>Rester en contact</h3>
+      <p>Email : contact@akariomarket.com</p>
+      <p>Téléphone : +225 07 14 06 74 92</p>
+      <p>Abidjan, Côte d’Ivoire</p>
+    </div>
+
+    <!-- 🟨 HORAIRES -->
+    <div class="footer-box">
+      <h3>Horaires</h3>
+      <p>Lundi - Vendredi : Ouvert de 8h - 18h ✔️</p>
+      <p>Samedi : Ouvert de  9h - 15h ✔️</p>
+      <p>Dimanche : Fermé ❌</p>
+    </div>
+
+    <!-- 🟪 RÉSEAUX AVEC LOGOS -->
+    <div class="footer-box">
+      <h3>Suivez-nous</h3>
+
+      <div class="socials">
+
+        <a href="https://www.Facebook.com/profile.php?id=61573454707718" target="_blank">
+          <img src="logo-facebook-removebg-preview.png" alt="Facebook">
+        </a>
+
+        <a href="#">
+          <img src="insta-removebg-preview.png" alt="Instagram">
+        </a>
+
+        <a href="#">
+          <img src="logo_tiktok.avif" alt="TikTok">
+        </a>
+
+        <a href="https://wa.me/2250714067492" class="whatsapp-btn" target="_blank">
+          <img src="whatsaap.webp" alt="WhatsApp">
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">
+    © 2026 Akario Market - Tous droits réservés
+  </p>
+
+</footer>
+
+</body>
+</html>
