@@ -161,7 +161,7 @@ a:hover {
 /* CONTENEUR GLOBAL */
 .classe_image {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   justify-items: center;
   margin-top: 40px;
@@ -559,4 +559,74 @@ nav {
 .btn:hover {
   background: #1c5ecf;
   transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) { }
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 50px 20px;
+    height: auto;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* PRODUITS */
+  .classe_image {
+    grid-template-columns: 1fr;
+  }
+
+  /* TENDANCES */
+  .tendance-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tendance-box {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .classe_image {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero h2 {
+    font-size: 45px;
+  }
+
 }
